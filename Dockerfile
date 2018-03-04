@@ -1,4 +1,4 @@
-FROM node:6.11.3
+FROM node:8.9.4
 RUN mkdir -p /var/app
 WORKDIR /var/app
 COPY package.json /var/app/
